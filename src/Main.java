@@ -39,7 +39,7 @@ public class Main {
                 case 3: {
                     System.out.println("Introduce la contraseña");
                     String contraseña = sc.next();
-                    if (contraseña.equals("pepe")) {
+                    if (contraseña.equals("1234")) {
                         double caixa = calcularCajaDia();
                         System.out.println("Hoy se han ganado " + caixa + "€");
                     } else {
